@@ -16,6 +16,21 @@
     <!-- nav ber design -->
     <div class="navbar bg-base-100 my-10">
       <div class="navbar-start">
+        <div class="dropdown text-[#1dd100]">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0"
+            class="menu menu-sm dropdown-content text-blaxk mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
         <a class="raleway text-2xl font-extrabold">P-Ticket</a>
       </div>
       <div class="navbar-center hidden lg:flex">
@@ -33,7 +48,50 @@
       </div>
     </div>
   </header>
-
+  <main class="p-4 lg:p-0 container mx-auto mb-10 lg:mb-20 mt-8">
+    <section>
+      <div class="hero w-auto lg:w-full h-[400px] lg:h-[550px] rounded-2xl"
+        style="background-image: url(images/banner.png);">
+        <div class="w-full flex flex-col gap-5"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="raleway max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">End-to-End Travel with <br> <span class="text-[#1dd100]">P
+                Paribahan</span></h1>
+            <p class="mb-5">Explore your city with ease. Our friendly routes and flexible schedules connect you to every
+              corner, opening doors to
+              new adventures.</p>
+            <button class="btn bg-[#1dd100] text-black font-bold">Buy Tickets</button>
+          </div>]
+        </div>
+      </div>
+      <div class="flex flex-col lg:flex-row gap-4 items-center">
+        <div
+          class="bg-white w-[308px] h-[138px] rounded-3xl flex lg:flex-row lg:absolute lg:left-[280px] lg:bottom-[-50px] items-center border-b border-[#1DD100] px-6 py-4">
+          <img class="mr-3" src="images/people.png" alt="">
+          <div class="flex flex-col items-center text-center">
+            <h2 class="inter text-4xl font-bold">500K+</h2>
+            <p class="inter text-lg text-[#03071299]">Registered users</p>
+          </div>
+        </div>
+        <div
+          class="bg-white w-[308px] h-[138px] rounded-3xl flex flex-row lg:absolute lg:left-[600px] lg:bottom-[-50px] items-center border-b border-[#1DD100] px-6 py-4">
+          <img class="mr-3" src="images/ticket-cupon.png" alt="">
+          <div class="flex flex-col items-center text-center">
+            <h2 class="inter text-4xl font-bold">1.7 lacks</h2>
+            <p class="inter text-lg text-[#03071299]">Tickets sold</p>
+          </div>
+        </div>
+        <div
+          class="bg-white w-[308px] h-[138px] rounded-3xl flex flex-row lg:absolute lg:left-[920px] lg:bottom-[-50px] items-center border-b border-[#1DD100] px-6 py-4">
+          <img class="mr-3" src="images/stoppage.png" alt="">
+          <div class="flex flex-col items-center text-center">
+            <h2 class="inter text-4xl font-bold">80K+</h2>
+            <p class="inter text-lg text-[#03071299]">Rental partners</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
 
 
